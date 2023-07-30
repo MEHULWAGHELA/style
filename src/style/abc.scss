@@ -1,0 +1,13 @@
+.sub {
+    background-color: chartreuse;
+    /* & _h1 means a upar lakhela object nu name check karse je hase teni sathe _h1 join kari dese
+    jena karane class banse .sub_h1 , te class ne je style aapi hoy a lagi jase */
+    &_h1 {
+        color: red;
+        font-weight: 900;
+    }
+    &Abc {
+        background-color: pink;
+        color: blue;
+    }
+}
